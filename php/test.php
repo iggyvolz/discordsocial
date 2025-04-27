@@ -18,7 +18,7 @@ use Monolog\Handler\StreamHandler;
 
 require_once __DIR__ . "/vendor/autoload.php";
 
-define("CLIENT_ID", trim(file_get_contents(__DIR__ . "/application_id.txt")));
+define("CLIENT_ID", intval(trim(file_get_contents(__DIR__ . "/application_id.txt"))));
 
 // create a log channel
 $log = new Logger('name');

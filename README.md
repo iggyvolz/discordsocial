@@ -31,6 +31,7 @@ TODO—you should be able to download the zip and development package.  Try to e
   * DISCORD_SOCIAL_SDK_ROOT being the root path to a Discord Social SDK installation (/mnt/c/Users/iggyvolz/Downloads/DiscordSocialSdk-1.1.8318/discord_social_sdk)
     * The file `${DISCORD_SOCIAL_SDK_ROOT}/include/discordpp.h` should exist
 * Inside the php directory, run `composer update`
+* Create the file `application_id.txt` inside the PHP directory with your client ID/application ID from Discord
 * Run `php -dextension=path/to/libdiscordsocial.so php/test.php` (substituting the first `php` with the full path to PHP if you didn't add it to your path)
   * On Windows, you would run `path\to\php.exe -dextension=path\to\libdiscordsocial.so php\test.php`
   * In CLion, you can set the executable to `path/to/php`, the program arguments to `-dextension=$CMakeCurrentProductFile$ php/test.php`, and the working directory to the root of the project
