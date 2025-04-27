@@ -1,0 +1,6 @@
+token.json
+vendor
+.idea
+application_id.txt
+composer.phar
+composer.lock
